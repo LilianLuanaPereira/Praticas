@@ -1,0 +1,38 @@
+# Delphi - arquivos gerados pela compilacao
+*.dcu
+*.exe
+*.dll
+*.bpl
+*.dcp
+*.map
+*.drc
+*.rsm
+*.tds
+*.o
+*.so
+
+# Delphi - arquivos locais do IDE
+*.local
+*.identcache
+*.stat
+*.tvsconfig
+*.dsk
+*.~*
+__history/
+__recovery/
+
+# Pastas de saida
+Win32/
+Win64/
+Debug/
+Release/
+
+# Bancos de dados e configuracao local (senhas ficam fora do Git)
+*.fdb
+*.FDB
+*.fbk
+*.gdb
+*.sqlite
+*.db
+*.ini
+!*.ini.exemplo
